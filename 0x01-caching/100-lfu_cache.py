@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-
+100-lfu_cache module
 """
 from collections import OrderedDict
 from base_caching import BaseCaching
 
 
 class LFUCache(BaseCaching):
-    """Inherits from BaseCaching and is a caching system.
+    """inherits from BaseCaching and is a caching system
     """
+
     def __init__(self):
         """Initializes the cache.
         """
